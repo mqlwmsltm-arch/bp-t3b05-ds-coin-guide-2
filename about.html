@@ -1,391 +1,371 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>당산 코인노래방 상세정보 및 이용절차 | 당산 코인노래방 가이드</title>
-  <meta name="description" content="당산역 초역세권 대학생 및 직장인 혼코노족을 위한 스튜디오급 음향 기기와 위생 마이크 상태가 개사기인 코노 완벽 정리. 위치 시그널과 정찰 가격 안내 수록.">
-  <meta name="keywords" content="당산 코인노래방 가이드, 당산 코인노래방 위치, 당산 코인노래방 가격, 당산 코인노래방 시스템">
-  <link rel="canonical" href="https://t3b05-ds-coin-guide-2.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-ds-coin-guide-2">
-  <style>
-    
-    :root {
-      --bg-dark: #0a0f1d;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #1e3a8a;
-      --accent-neon: #06b6d4;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: sans-serif, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 28px;
-      font-size: 0.98rem;
-      font-weight: 700;
-      transition: color 0.3s, text-shadow 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-      text-shadow: 0 0 8px var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 140px 20px 100px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 75%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      margin-bottom: 24px;
-      letter-spacing: -0.06em;
-      line-height: 1.25;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    }
-    
-    .hero-glow p {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 750px;
-      margin: 0 auto 35px;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
-      padding: 18px;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      border-radius: 8px;
-      margin: 25px auto;
-      max-width: 600px;
-      font-size: 1.4rem;
-      font-weight: 900;
-      letter-spacing: 0.05em;
-      text-align: center;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-      transition: text-shadow 0.3s;
-    }
-    
-    .phone-bar a:hover {
-      text-shadow: 0 0 10px var(--accent-neon);
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 15px 36px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 800;
-      border-radius: 9999px;
-      box-shadow: 0 4px 22px rgba(236, 72, 153, 0.35);
-      transition: all 0.3s ease;
-      letter-spacing: 0.03em;
-    }
-    
-    .neon-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(236, 72, 153, 0.65);
-    }
-    
-    .sec-wrap {
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 24px;
-      padding: 45px;
-      backdrop-filter: blur(10px);
-      margin-bottom: 45px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
-    
-    .glass-box h2 {
-      font-size: 2.2rem;
-      font-weight: 900;
-      margin-bottom: 28px;
-      color: #fff;
-      border-left: 5px solid var(--accent-neon);
-      padding-left: 20px;
-      letter-spacing: -0.04em;
-    }
-    
-    .glass-box p {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 24px;
-      text-align: justify;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 28px;
-      margin-top: 36px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.015);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 28px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-3px);
-      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 14px;
-      letter-spacing: -0.02em;
-    }
-    
-    .mini-card p {
-      font-size: 0.98rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .premium-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 30px 0;
-      color: var(--text-main);
-    }
-    
-    .premium-table th {
-      background: rgba(255,255,255,0.03);
-      padding: 16px;
-      border-bottom: 2px solid var(--border-color);
-      font-weight: 800;
-      text-align: left;
-    }
-    
-    .premium-table td {
-      padding: 16px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 1.05rem;
-    }
-    
-    .premium-table tbody tr:hover {
-      background: rgba(255,255,255,0.01);
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 24px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.88rem;
-      color: var(--accent-neon);
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    
-    .reviewer-text {
-      font-size: 1.02rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.5);
-      border-top: 1px solid var(--border-color);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 12px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.3rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 28px;
-      }
-      .premium-table {
-        font-size: 0.9rem;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>당산 코인노래방 가이드 – 상세 정보 & 지역 분석</title>
+    <meta name="description" content="당산역 코인노래방의 모든 것을 담은 상세 정보 페이지. 시설, 가격, 위치 데이터를 기반으로 한 객관적 분석과 실제 이용 후기, 전문가 추천까지 확인하세요. 전화 문의 010-6279-0862">
+    <meta name="keywords" content="당산 코인노래방 정보, 당산역 코인노래방 상세, 당산 노래방 시설, 코인노래방 가격 비교, 당산 가성비 노래방 추천, 당산 혼자 노래방, 코인노래방 이용 팁">
+    <meta name="author" content="당산코인노래방가이드">
+    <link rel="canonical" href="https://t3b05-ds-coin-guide-2.vercel.app/">
+    <!-- Open Graph -->
+    <meta property="og:title" content="당산 코인노래방 가이드 – 상세 정보 & 지역 분석">
+    <meta property="og:description" content="당산 코인노래방의 시설, 가격, 위치 데이터를 기반으로 한 객관적 분석과 실제 이용 후기. 전문가가 직접 확인한 정보를 확인하세요.">
+    <meta property="og:image" content="https://t3b05-ds-coin-guide-2.vercel.app/og-image.jpg">
+    <meta property="og:url" content="https://t3b05-ds-coin-guide-2.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="robots" content="index, follow">
+    <style>
+        /* === RESET === */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            line-height: 1.6;
+        }
+        img, svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        a {
+            color: #c62828;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* === TYPE === */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+        h1 {
+            font-size: 2.2rem;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            border-left: 4px solid #c62828;
+            padding-left: 0.75rem;
+            margin: 2rem 0 1rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+            color: #c62828;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        /* === LAYOUT === */
+        header, main, footer {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        header {
+            background: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #222;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+        nav a {
+            font-weight: 600;
+            color: #333;
+            padding: 0.5rem 0;
+        }
+        nav a.active {
+            color: #c62828;
+            border-bottom: 2px solid #c62828;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0.5rem;
+        }
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: #333;
+            display: block;
+        }
+        /* === HERO === */
+        .hero {
+            background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+            color: #fff;
+            padding: 3rem 2rem;
+            text-align: center;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+        }
+        .hero .cta {
+            display: inline-block;
+            background: #c62828;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        .hero .cta:hover {
+            background: #b71c1c;
+            text-decoration: none;
+        }
+        /* === CARDS === */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        .card h3 {
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .card .price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #c62828;
+        }
+        /* === INFO SECTION === */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .info-box {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .info-box h3 {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .info-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-box li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+        .info-box li:last-child {
+            border-bottom: none;
+        }
+        .info-box .label {
+            font-weight: 600;
+        }
+        /* === FAQ === */
+        .faq {
+            margin: 2rem 0;
+        }
+        .faq-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+            overflow: hidden;
+        }
+        .faq-question {
+            background: #f9f9f9;
+            padding: 1rem 1.25rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #c62828;
+        }
+        .faq-answer {
+            padding: 0 1.25rem 1rem;
+            display: none;
+        }
+        .faq-item.open .faq-answer {
+            display: block;
+        }
+        .faq-item.open .faq-question::after {
+            content: '−';
+        }
+        /* === FOOTER === */
+        footer {
+            background: #222;
+            color: #ccc;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            border-radius: 8px 8px 0 0;
+        }
+        footer a {
+            color: #c62828;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .footer-content div {
+            flex: 1;
+            min-width: 200px;
+        }
+        .footer-content h4 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        /* === RESPONSIVE === */
+        @media (max-width: 900px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background: #fff;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                padding: 1rem;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+            nav ul.show {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .hero {
+                padding: 2rem 1rem;
+            }
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (min-width: 769px) {
+            nav ul {
+                display: flex !important;
+            }
+        }
+        /* === TEL LINK STYLE === */
+        .tel-link {
+            color: #c62828;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        /* === CONTACT BAR === */
+        .contact-bar {
+            background: #c62828;
+            color: #fff;
+            padding: 0.75rem 1rem;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .contact-bar a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+    <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "당산 코인노래방 상세정보",
-      "url": "https://t3b05-ds-coin-guide-2.pages.dev/about.html",
-      "description": "당산 코인노래방의 상세 위치, 이용 프로세스 및 예약 가격 안내."
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "당산코인노래방가이드",
+        "description": "당산역 코인노래방 정보 제공 사이트",
+        "telephone": "010-6279-0862",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "당산역",
+            "addressLocality": "서울",
+            "addressRegion": "영등포구",
+            "postalCode": "07200",
+            "addressCountry": "KR"
+        },
+        "url": "https://t3b05-ds-coin-guide-2.vercel.app/",
+        "image": "https://t3b05-ds-coin-guide-2.vercel.app/og-image.jpg",
+        "priceRange": "₩500 - ₩5,000",
+        "openingHours": "Mo-Su 09:00-06:00",
+        "areaServed": "당산역"
     }
-  </script>
+    </script>
 </head>
 <body>
-
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">당산 코인노래방 포털</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">DETAILED INFO</span> 상세 정보</h1>
-    <p>당산 로컬로서 형들이 헛돈 쓰는 일 절대 없도록 확실한 랜드마크와 투명 주종 가격을 공개합니다.</p>
-    <div class="phone-bar">
-      📞 실시간 직통 전화: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
-
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>스토리 & 이용 동기</h2>
-      <p>코노 가성비 끝판왕의 성지를 구축하기 위해 청춘을 바쳤음. 나 또한 젊은 시절 노래 연습하겠다고 당산 학원가 주변 코노를 전전하다가, 지직거리는 마이크 삑사리에 목 나가고 코인 다 뜯겨서 개빡쳤던 한 맺힌 과거 추억이 있다. 그때 다짐했지. 내 마포 강서 일대 하늘 아래에선 동전 한 닢을 넣어도 세계 최고의 하이파이 오디오 마이크와 깨끗한 위생 공기청정 속에서 손맛 나게 부를 수 있는 인생 코노를 구축하겠다고. 그렇게 1등 할인 혜택으로 완성해 놓은 라인이 바로 010-6279-0862다.</p>
-    </div>
-
-    <div class="glass-box">
-      <h2>상세 위치 시그널 & 인프라</h2>
-      <p>📌 상세 찾아오시는 길 및 랜드마크 안내: 당산 메인 핫플레이스 역전 메인 광장 도보 30초 컷 현대식 대형 상가 타워 2층에 입점해 있어서 눈비가 쏟아져도 뛰어가기 개꿀이며, 인근 핫플 맛집들과 바로 연결되어 데이트 마지막 힐링 코스 완성으로 진짜 완벽하게 끝판왕이다.</p>
-    </div>
-
-    <div class="glass-box">
-      <h2>투명 정찰 가격표</h2>
-      <p>애초에 빌지 장난을 원천 차단하기 위해 주종 및 시간 코스 견적을 명확히 고시합니다.</p>
-      
-        <table class="premium-table">
-          <thead>
-            <tr><th>코인 할인 패키지 목록</th><th>곡 수 / 이용 시간</th><th>정상가</th><th>예약 특가 (010-6279-0862)</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>가성비 동전 코너 패키지 A</td><td>12곡</td><td>5,000원</td><td><strong>4,000원</strong></td></tr>
-            <tr><td>동전 왕창 대량 패키지 B</td><td>30곡</td><td>10,000원</td><td><strong>8,000원</strong></td></tr>
-            <tr><td>시간제 단체 무제한 패키지 C</td><td>60분 무제한</td><td>15,000원</td><td><strong>12,000원</strong></td></tr>
-          </tbody>
-        </table>
-      
-    </div>
-
-    <div class="glass-box">
-      <h2>자주 묻는 질문 (FAQ)</h2>
-      <div style="margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px;">
-        <h4 style="color: var(--accent-neon); margin-bottom: 10px;">Q. 예약 없이 바로 매장으로 가도 되나요?</h4>
-        <p style="color: var(--text-muted); font-size: 1rem;">A. 주말이나 피크 타임에는 룸이 풀로 차서 워크인으로 오시면 대기 시간이 2~3시간씩 걸리거나 헛걸음하기 쉽습니다. 형들의 골든타임을 사수하고 실시간 대기실 가동 룸을 확보하기 위해 오시기 최소 30분 전 010-6279-0862 예약센터로 전화 한 통만 때려주시길 정중히 권합니다!</p>
-      </div>
-      <div>
-        <h4 style="color: var(--accent-neon); margin-bottom: 10px;">Q. 정찰가 외에 현장 빌지 추가금 청구가 있나요?</h4>
-        <p style="color: var(--text-muted); font-size: 1rem;">A. 단 10원짜리 하나도 허위나 부가 요금을 추가 청구하지 않습니다. 예약 단계에서 합의된 정찰 요금 그대로 카드/현금 깔끔 정산 마감해 드리니 눈탱이 걱정은 싹 접어두셔도 좋습니다!</p>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p><strong>당산 코인노래방 찐후기 가이드 포털</strong></p>
-    <p>주소: 서울특별시 당산구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a>
-      
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 당산 코인노래방 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
-
+    <div class="contact-bar">
+        ☎ 전문가 상
 </body>
 </html>
